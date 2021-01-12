@@ -7,7 +7,7 @@
 // Write a JavaScript program to display the current day and time, start with:
 console.log(new Date)
 
-const displayDate = () => {
+const displayDate = (time) => {
   const currentDate = new Date()
 
   document.getElementById("display-element").innerHTML = currentDate;
@@ -16,11 +16,16 @@ const displayDate = () => {
 
 // Write a JavaScript program to convert a number to a string.
 
-
+var number = 13;
+var n = num.toString(); 
 
 // Write a JavaScript program to convert a string to the number.
 
-
+let num1 = 13;
+let num2 = 13;
+if (num1 = num2) {
+  console.log (true);
+}
 
 // Write a JavaScript program that takes in different datatypes and prints out whether they are a:
   // * Boolean
@@ -34,17 +39,46 @@ const displayDate = () => {
   
 // Write a JavaScript program that adds 2 numbers together.
 
+const num1 = 2;
+const num2 = 2;
+const sum = num1 + num2;
 
+console.log('the sum is' sum);
 
 // Write a JavaScript program that runs only when 2 things are true.
 
+let tall = false;
+let handsome = true;
 
+if(tall && handsome) { 
+  console.log("sure thing");
+ } else if (tall || handsome) {
+   console.log("yes please")
+ } else {
+   console.log("i am not sure")
+ }
 
 // Write a JavaScript program that runs when 1 of 2 things are true.
 
-
+let grade = 90
+ 
+ if(grade >=90){
+   console.log("you made an A")
+ } else if (grade >= 80){
+   console.log("you made a B");
+ } else if (grade >=100){
+   console.log("super A+")
+ }
+ 
+  else {
+   console.log("You did not make an A");
 
 // Write a JavaScript program that runs when both things are not true.  
+
+const one  = 9;
+const two = 4;
+
+console.log(a > 0 || b > 7); 
 
 // ***************************
 //         PART TWO
